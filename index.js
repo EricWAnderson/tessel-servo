@@ -3,6 +3,7 @@ var tessel = require('tessel');
 
 // Turn one of the LEDs on to start.
 tessel.led[2].on();
+tessel.led[3].on();
 
 // Blink!
 setInterval(function () {
